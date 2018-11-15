@@ -1,0 +1,35 @@
+1                                                             SAS 系统                        2008年07月31日 星期四 上午10时47分48秒
+
+NOTE: 版权所有 (c) 2002-2008 SAS Institute Inc., Cary, NC, USA。 
+NOTE: SAS (r) Proprietary Software 9.2 (TS1M0 DBCS3055) 
+      许可给 UNIVERSITY OF NOTRE DAME - T&R 使用，软件安装点: 0070009309。
+NOTE: 该会话正在执行，平台: W32_VSHOME 
+
+
+
+NOTE: “SAS 初始化”所用时间:
+      实际时间          0.82 秒
+      CPU 时间          0.51 秒
+      
+1          PROC IMPORT OUT= WORK.a
+2                      DATAFILE= "D:\test.xls"
+3                      DBMS=EXCEL REPLACE;
+4               RANGE="Sheet1$";
+5               GETNAMES=YES;
+6               MIXED=NO;
+7               SCANTEXT=YES;
+8               USEDATE=YES;
+9               SCANTIME=YES;
+10         RUN;
+
+NOTE: 成功创建“WORK.A”数据集。
+NOTE: “PROCEDURE IMPORT”所用时间（总处理时间）:
+      实际时间          0.56 秒
+      CPU 时间          0.20 秒
+      
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: “SAS 系统”所用时间:
+      实际时间          1.45 秒
+      CPU 时间          0.78 秒
+      

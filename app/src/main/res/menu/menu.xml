@@ -1,0 +1,28 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/not_order"
+        android:orderInCategory="100"
+        android:title="已点菜品"
+
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/see_ordered"
+        android:orderInCategory="100"
+        android:title="查看订单"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/call_service"
+        android:orderInCategory="100"
+        android:title="呼叫服务"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/update"
+        android:orderInCategory="100"
+        android:title="启动实时更新"
+        app:showAsAction="never" />
+
+
+</menu>
